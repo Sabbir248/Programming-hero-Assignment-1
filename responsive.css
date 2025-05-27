@@ -6,9 +6,10 @@
 #footer1{
     padding: 10px 0px;
 }
-.service-card{
+ .service-card{
     padding: 80px 20px;
-}
+} 
+
 }
 /* tablet device */
 
@@ -40,6 +41,7 @@
 
  #service-card-container{
     flex-direction: column;
+    gap: 40px;
 }
 .service-card{
     max-width: 100%;
