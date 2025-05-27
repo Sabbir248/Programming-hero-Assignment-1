@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     width: 100%;
@@ -38,7 +39,7 @@ img{
 #header-text h1 span{
     color: #FFA500;
 }
-#header,footer{
+#header{
     padding: 24px auto 24px auto;
     display: flex;
     justify-content: space-between;
@@ -160,60 +161,57 @@ img{
     border: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-#target{
+
+ #service{
     width: 87.5%;
-    margin: 100px 80px;
+    margin: 0 auto 120px auto;
 }
-.target-card-container{
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   gap: 40px;
+#service-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
-.target-card{
-     background-image:linear-gradient(to bottom ,#E6EDF9,#9DE5FF) ;
-     border-radius: 16px;
-     padding: 60px;
-     text-align: left;
-     min-width: 300px;
-     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-     
+.service-card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 100px 60px;
+    text-align: center;
+    min-width: 350px;
 }
-.target-card a{
+.service-card img{
+    width: 80px;
+    margin-bottom: 24px;
+}
+.service-card h2{
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.service-card p{
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-card a{
     color: black;
     font-weight: bold;
     font-size: 16px;
 }
-#target-heading{
+#service .heading-content{
     text-align: center;
-}
-#target-heading h2 , #target-heading p{
     margin-bottom: 24px;
 }
-.target-card img{
-    width: 80px;
-    margin-bottom: 24px;
-}
-.target-card h2{
-    font-weight: bolder;
-    font-size: 32px;
-    margin-bottom: 20px;
-    
-}
-.target-card p{
-    font-size: 16px;
-    color: #0D1321;
+#service .heading-content h2, #service .heading-content p{
     text-align: center;
+    margin-bottom: 24px;
 }
 #footer{
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
-    margin: 100px 0px 0px 0px;
-    border-radius: 16px;
+   margin: 0;
     padding: 10px 60px;
-    position: absolute;
-    width: 90%;
 }
 #footer ul li{
     list-style: none;
