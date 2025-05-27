@@ -169,14 +169,15 @@ img{
 #service-card-container{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    font-size: 26px;
+    
 }
 .service-card{
     background-color: white;
     border-radius: 30px;
-    padding: 100px 60px;
+    padding: 100px ;
     text-align: center;
-    min-width: 350px;
+    max-width: 350px;
 }
 .service-card img{
     width: 80px;
