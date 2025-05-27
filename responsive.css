@@ -94,11 +94,14 @@
     text-align: left;
 }
 .info-section h3{   
-    font-size: 24px;  
+    font-size: 24px;
+    padding-left: 1px;
+    padding-right: 1px;  
 }
 .info-text p {
     
     line-height: normal;
+   
 }
 .target-card-container{
     padding-right: 70px ;
@@ -106,5 +109,268 @@
 #footer{
     font-size: 12px;
     text-align: left;
+}
+#intro{
+    margin: 100px 1px 100px 1px;   
+}
+.info-section {   
+   margin-left:1px ;
+   margin-right: 1px;  
+   padding: 0px; 
+}
+.inspiration-section {
+    
+    margin: 100px 1px;
+   
+}
+}/* laptop device */
+@media only screen and (max-width: 1200px) {
+ #header-text{
+    font-size: 24px;
+}
+#footer{
+    padding: 10px 0px;
+}
+}
+/* tablet device */
+
+@media only screen and (max-width: 1024px) {
+ body{
+    width: 100%;
+ }
+    #header-text{
+    font-size: 20px;
+    margin:10px 0px 10px 10px;
+}
+#btn{
+    padding: 13px 20px;
+    font-size: 16px;
+     margin:20px 60px 20px 0;
+}
+#button-box{
+    margin:10px 10px 10px 0px;
+}
+#header{
+    justify-content: space-between;
+}
+#intro #btn {
+    margin: auto;
+}
+.info-section {   
+    flex-direction: column-reverse;   
+}
+.target-card-container{
+ 
+    flex-direction: column;
+    padding-right: 60px ;
+}
+#target-heading h2 , #target-heading p{
+   text-align: left;
+}
+#footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+}
+/* mobile device */
+/* up to 425px */
+@media only screen and (max-width: 640px) {
+
+    #header-text{
+    font-size: 16px;
+    margin:5px 0px 5px 5px;
+}
+#btn , .btn1{
+    padding: 10px 17px;
+    font-size: 12px;
+     margin:10px 40px 10px 0;
+}
+#button-box, .btn1{
+    margin:5px 5px 5px 0px;
+}
+
+#header{
+    justify-content: space-between;
+}
+#intro-card img{
+    width: 100%;
+}
+#intro h1{
+    text-align: left;
+    font-size: 24px;
+}
+#intro p{
+    text-align: left;
+    font-size: 20px;
+    flex-wrap: wrap;
+    
+}
+.why-web-dev h2{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 22;
+    text-align: left;
+}
+.why-web-dev p{
+   text-align: justify;
+    width: 100%;
+    text-align: left;
+}
+.info-section h3{   
+    font-size: 24px;
+    padding-left: 1px;
+    padding-right: 1px;  
+}
+.info-text p {
+    
+    line-height: normal;
+   
+}
+.target-card-container{
+    padding-right: 70px ;
+}
+#footer{
+    font-size: 12px;
+    text-align: left;
+}
+#intro{
+    margin: 100px 1px 100px 1px;   
+}
+.info-section {   
+   margin-left:1px ;
+   margin-right: 1px;  
+   padding: 0px; 
+}
+.inspiration-section {
+    
+    margin: 100px 1px;
+   
+}
+}/* laptop device */
+@media only screen and (max-width: 1200px) {
+ #header-text{
+    font-size: 24px;
+}
+#footer{
+    padding: 10px 0px;
+}
+}
+/* tablet device */
+
+@media only screen and (max-width: 1024px) {
+ body{
+    width: 100%;
+ }
+    #header-text{
+    font-size: 20px;
+    margin:10px 0px 10px 10px;
+}
+#btn{
+    padding: 13px 20px;
+    font-size: 16px;
+     margin:20px 60px 20px 0;
+}
+#button-box{
+    margin:10px 10px 10px 0px;
+}
+#header{
+    justify-content: space-between;
+}
+#intro #btn {
+    margin: auto;
+}
+.info-section {   
+    flex-direction: column-reverse;   
+}
+.target-card-container{
+ 
+    flex-direction: column;
+    padding-right: 60px ;
+}
+#target-heading h2 , #target-heading p{
+   text-align: left;
+}
+#footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+}
+/* mobile device */
+/* up to 425px */
+@media only screen and (max-width: 640px) {
+
+    #header-text{
+    font-size: 16px;
+    margin:5px 0px 5px 5px;
+}
+#btn , .btn1{
+    padding: 10px 17px;
+    font-size: 12px;
+     margin:10px 40px 10px 0;
+}
+#button-box, .btn1{
+    margin:5px 5px 5px 0px;
+}
+
+#header{
+    justify-content: space-between;
+}
+#intro-card img{
+    width: 100%;
+}
+#intro h1{
+    text-align: left;
+    font-size: 24px;
+}
+#intro p{
+    text-align: left;
+    font-size: 20px;
+    flex-wrap: wrap;
+    
+}
+.why-web-dev h2{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 22;
+    text-align: left;
+}
+.why-web-dev p{
+   text-align: justify;
+    width: 100%;
+    text-align: left;
+}
+.info-section h3{   
+    font-size: 24px;
+    padding-left: 1px;
+    padding-right: 1px;  
+}
+.info-text p {
+    
+    line-height: normal;
+   
+}
+.target-card-container{
+    padding-right: 70px ;
+}
+#footer{
+    font-size: 12px;
+    text-align: left;
+}
+#intro{
+    margin: 100px 1px 100px 1px;   
+}
+.info-section {   
+   margin-left:1px ;
+   margin-right: 1px;  
+   padding: 0px; 
+}
+.inspiration-section {
+    
+    margin: 100px 1px;
+   
 }
 }
