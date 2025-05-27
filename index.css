@@ -1,0 +1,224 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top left ,#B8E7FA,#E6E6FA);
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+#btn{
+    padding: 17px 24px;
+    border-radius: 17px;
+    background-image: linear-gradient(to right ,#FFA500,#FFD447);
+    font-size: 20px;
+    font-weight: normal;
+    margin:24px 80px 24px 0;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px rgba(247, 181, 54, 0.4);
+}
+#btn:hover{
+    background-image: linear-gradient(to bottom, #33ccff 0%, #99ffcc 100%);
+}
+#header-text{
+    font-size: 28px;
+    font-weight: bolder;
+     margin:24px 0 24px 80px;
+}
+#header-text h1{
+    color: #0D1321;
+}
+#header-text h1 span{
+    color: #FFA500;
+}
+#header,footer{
+    padding: 24px auto 24px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#intro{
+    margin: 100px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+}
+#intro-card {
+    margin: 40px 60px 0px 60px;
+}
+#intro-card img{
+    width: 240.28px;
+}
+#button-box{
+  margin: 0px  60px 40px 60px;
+}
+#intro-content{
+    margin: 32px  60px 32px 60px;
+}
+.why-web-dev {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    text-align: center;
+}
+.why-web-dev h2{
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.why-web-dev p {
+    font-size:16px;
+    line-height: 16px;
+}
+ .btn1{
+    margin-top: 32px;
+    padding: 17px 24px;
+    border-radius: 17px;
+    background-image: linear-gradient(to right ,#FFA500,#FFD447);
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px rgba(247, 181, 54, 0.4);
+}
+.btn1:hover{
+    background-image: linear-gradient(to bottom, #33ccff 0%, #99ffcc 100%);
+}
+.info-section {
+    max-width: 100%;
+    margin: 0px 80px;
+    background-color: #e6ecfb;
+    border-radius: 15px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+.info-text {
+    width: 50%;
+}
+.info-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    line-height: 24px;
+}
+.info-text p {
+    font-size: 16px;
+    color: #0D1321;
+    line-height: 1.5;
+}
+
+.info-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.inspiration-section {
+    max-width: 100%;
+    margin: 100px 100px;
+    background-color: #d5e7ff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.inspiration-section h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.inspiration-section p {
+    font-size: 0.9rem;
+    color: #555a6c;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    line-height: 1.4;
+}
+
+.inspiration-section iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+#target{
+    width: 87.5%;
+    margin: 100px 80px;
+}
+.target-card-container{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 40px;
+}
+.target-card{
+     background-image:linear-gradient(to bottom ,#E6EDF9,#9DE5FF) ;
+     border-radius: 16px;
+     padding: 60px;
+     text-align: left;
+     min-width: 300px;
+     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+     
+}
+.target-card a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+#target-heading{
+    text-align: center;
+}
+#target-heading h2 , #target-heading p{
+    margin-bottom: 24px;
+}
+.target-card img{
+    width: 80px;
+    margin-bottom: 24px;
+}
+.target-card h2{
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 20px;
+    
+}
+.target-card p{
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 100px 0px 0px 0px;
+    border-radius: 16px;
+    padding: 10px 60px;
+    position: absolute;
+    width: 90%;
+}
+#footer ul li{
+    list-style: none;
+    display: inline-block;
+}
+#footer id ul li a img{
+     text-decoration:none;
+}
